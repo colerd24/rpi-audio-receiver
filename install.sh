@@ -5,7 +5,7 @@ sudo apt update
 sudo apt upgrade -y
 
 echo "Installing components"
-sudo update-hostname.sh
+sudo ./update-hostname.sh
 sudo ./install-bluetooth.sh
 sudo ./install-shairport.sh
 sudo ./install-spotify.sh
