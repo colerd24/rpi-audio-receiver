@@ -1,5 +1,9 @@
 #!/bin/bash -e
 
+echo -n "Do you want to update the hostname? [y/N]"
+read REPLY
+if [[ ! "$REPLY" =~ ^(yes|y|Y)$ ]]; then exit 0; fi
+
 read -p "Hostname [$(hostname)]: " HOSTNAME
 sudo raspi-config nonint do_hostname ${HOSTNAME:-$(hostname)}
 

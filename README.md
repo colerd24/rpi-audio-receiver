@@ -1,3 +1,7 @@
+# colerd24 Fork Forward
+
+I forked this repository to make it more applicable for use in automotive applications. The fork adds an additional script for adding fast booting in addition to some other minor improvements that I am currently working on. It focuses on the bluetooth aspect and other functionality has been disabled in the install.sh script (just commented out, can be reenabled).
+
 # Raspberry Pi Audio Receiver
 
 A simple, light weight audio receiver with Bluetooth (A2DP), AirPlay, Spotify Connect and UPnP.
